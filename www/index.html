@@ -1,0 +1,50 @@
+Html Webpack Plugin:
+<pre>
+  TypeError: Cannot read property '0' of undefined
+  
+  - ExternalModuleFactoryPlugin.js:18 ExternalModuleFacto    ryPlugin.<anonymous>
+    [webpack]/[webpack]/lib/ExternalModuleFactoryPlugin.j    s:18:38
+  
+  - NormalModuleFactory.js:159 
+    [webpack]/[gulp-webpack]/[webpack]/lib/NormalModuleFa    ctory.js:159:3
+  
+  - Tapable.js:75 NormalModuleFactory.applyPluginsAsyncWa    terfall
+    [webpack]/[gulp-webpack]/[tapable]/lib/Tapable.js:75:    69
+  
+  - NormalModuleFactory.js:144 NormalModuleFactory.create    [webpack]/[gulp-webpack]/[webpack]/lib/NormalModuleFa    ctory.js:144:8
+  
+  - Compilation.js:356 Compilation.process [as _addModule    Chain]
+    [webpack]/[gulp-webpack]/[webpack]/lib/Compilation.js    :356:16
+  
+  - Compilation.js:424 Compilation.process [as addEntry]
+    [webpack]/[gulp-webpack]/[webpack]/lib/Compilation.js    :424:7
+  
+  - SingleEntryPlugin.js:24 Compiler.compiler.plugin
+    [webpack]/[webpack]/lib/SingleEntryPlugin.js:24:16
+  
+  - Tapable.js:107 Compiler.applyPluginsParallel
+    [webpack]/[gulp-webpack]/[tapable]/lib/Tapable.js:107    :14
+  
+  - Compiler.js:394 Compiler.compile
+    [webpack]/[gulp-webpack]/[webpack]/lib/Compiler.js:39    4:7
+  
+  - Compiler.js:203 Compiler.runAsChild
+    [webpack]/[gulp-webpack]/[webpack]/lib/Compiler.js:20    3:7
+  
+  - compiler.js:70 
+    [webpack]/[html-webpack-plugin]/lib/compiler.js:70:19  
+  - debuggability.js:300 Promise._execute
+    [webpack]/[bluebird]/js/release/debuggability.js:300:    9
+  
+  - promise.js:481 Promise._resolveFromExecutor
+    [webpack]/[bluebird]/js/release/promise.js:481:18
+  
+  - promise.js:77 new Promise
+    [webpack]/[bluebird]/js/release/promise.js:77:14
+  
+  - compiler.js:69 Object.compileTemplate
+    [webpack]/[html-webpack-plugin]/lib/compiler.js:69:10  
+  - index.js:47 Compiler.<anonymous>
+    [webpack]/[html-webpack-plugin]/index.js:47:40
+  
+</pre>
